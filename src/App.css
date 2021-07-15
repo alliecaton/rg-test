@@ -1,3 +1,7 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 .header-container {
 	background-image: url('./assets/hero.jpg');
 	height: 750px;
@@ -11,4 +15,22 @@
 	float: left;
 	width: 20%;
 	padding-left: 10%;
+}
+
+.hero-content-parent {
+	display: flex;
+	justify-content: center;
+	flex-flow: column wrap;
+	align-items: center;
+	height: 90%;
+	width: 100%;
+	color: white;
+}
+
+.purple-button {
+	border: none;
+	color: white;
+	padding: 15px;
+	background-color: #ac5fd1;
+	border-radius: 7px;
 }

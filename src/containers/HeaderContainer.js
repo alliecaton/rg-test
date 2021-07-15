@@ -1,11 +1,12 @@
 import React from 'react'
-import NavBar from '../components/NavBar.js'
+import NavBar from '../components/NavBar'
+import Header from '../components/Header'
 
 const HeaderContainer = () => {
 	return (
 		<div className='header-container'>
 			<NavBar />
-			this is the header container
+			<Header />
 		</div>
 	)
 }
