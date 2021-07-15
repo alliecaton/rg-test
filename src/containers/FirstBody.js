@@ -4,7 +4,7 @@ import ImageComponent from '../components/ImageComponent'
 
 const FirstBody = () => {
 	return (
-		<div className='grid-class'>
+		<div className='first-body two-column-grid'>
 			<TextComponent />
 			<ImageComponent />
 		</div>

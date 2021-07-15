@@ -2,20 +2,17 @@ import './App.css'
 import HeaderContainer from './containers/HeaderContainer'
 import FirstBody from './containers/FirstBody'
 import SecondBody from './containers/SecondBody'
+import Footer from './components/Footer'
 
 function App() {
 	return (
 		<div className='App'>
 			<HeaderContainer />
-			<FirstBody />
-			<SecondBody />
-			{/* header  */}
-			{/* container 1
-    container 2
-    container 3
-    container 4
-    container 5
-    container 6 */}
+			<div className='flex'>
+				<FirstBody />
+				<SecondBody />
+				<Footer />
+			</div>
 		</div>
 	)
 }
