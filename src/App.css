@@ -2,6 +2,14 @@ a {
 	text-decoration: none;
 }
 
+h2 {
+	color: #613475;
+}
+
+p {
+	color: #535353;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -40,6 +48,14 @@ body {
 	border-radius: 7px;
 }
 
+.orange-button {
+	border: none;
+	color: white;
+	padding: 15px;
+	background-color: #ff7218;
+	border-radius: 7px;
+}
+
 .welcome {
 	width: auto;
 }
@@ -52,4 +68,14 @@ body {
 
 .component-image {
 	width: 100%;
+}
+
+.component-text {
+	margin: 20%;
+}
+
+
+.second-body{
+  background-image: url('./assets/banner-1.jpg')
+}
 }

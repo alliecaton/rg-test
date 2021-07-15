@@ -2,7 +2,7 @@ import React from 'react'
 
 const TextComponent = () => {
 	return (
-		<div>
+		<div className='component-text'>
 			<h2>Lorem Ipsum</h2>
 			<p>
 				Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
