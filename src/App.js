@@ -1,10 +1,12 @@
-import HeaderContainer from './containers/HeaderContainer'
 import './App.css'
+import HeaderContainer from './containers/HeaderContainer'
+import FirstBody from './containers/FirstBody'
 
 function App() {
 	return (
 		<div className='App'>
 			<HeaderContainer />
+			<FirstBody />
 			{/* header  */}
 			{/* container 1
     container 2
