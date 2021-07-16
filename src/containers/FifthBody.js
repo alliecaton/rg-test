@@ -10,6 +10,9 @@ const FifthBody = () => {
 		speed: 500,
 		slidesToShow: 1,
 		slidesToScroll: 1,
+		autoplay: false,
+		arrows: true,
+		className: 'carousel',
 	}
 
 	return (
@@ -19,8 +22,7 @@ const FifthBody = () => {
 				<h2 className='stars'>★★★★★</h2>
 			</div>
 			<div>
-				<h2> Single Item</h2>
-				<Slider {...settings}>
+				<Slider className='slider' {...settings}>
 					<div>
 						<h3>1</h3>
 					</div>
