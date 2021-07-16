@@ -1,4 +1,5 @@
 import './App.css'
+import React from 'react'
 import HeaderContainer from './containers/HeaderContainer'
 import FirstBody from './containers/FirstBody'
 import SecondBody from './containers/SecondBody'
@@ -17,8 +18,8 @@ function App() {
 				<ThirdBody />
 				<FourthBody />
 				<FifthBody />
-				<Footer />
 			</div>
+			<Footer />
 		</div>
 	)
 }

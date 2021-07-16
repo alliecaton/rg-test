@@ -14,13 +14,14 @@ p {
 
 body {
 	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 80px;
 }
 
 /* container class styles */
 
 .body-wrapper {
 	display: grid;
-	grid-auto-flow: row;
+	grid-auto-rows: auto;
 }
 
 .first-body {
@@ -113,11 +114,11 @@ body {
 	grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
-.one-column-grid {
+/* .one-column-grid {
 	height: 600px;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+/* } */
 
 /* component specific grids */
 
@@ -135,7 +136,9 @@ body {
 
 .component-image {
 	width: 100%;
-	height: auto;
+	/* height: auto; */
+	min-height: 440px;
+	object-fit: cover;
 }
 
 .component-text {
@@ -217,4 +220,8 @@ body {
 
 .slider-container {
 	margin: 10%;
+}
+
+.slick-dots li button {
+	color: red;
 }
