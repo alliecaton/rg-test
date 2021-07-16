@@ -48,7 +48,7 @@ body {
 
 .fifth-body {
 	height: auto;
-	width: 100%;
+	/* margin: 20px; */
 }
 
 .footer-wrapper {
@@ -193,11 +193,28 @@ body {
 	z-index: 1;
 } */
 
+/* carousel styles */
+
 .slick-prev:before,
 .slick-next:before {
-	color: #000001 !important;
+	color: #613475 !important;
 }
 
 .carousel {
 	width: 90%;
+}
+
+.slide-title {
+	color: #613475;
+	text-align: center;
+}
+
+.slide-body {
+	margin: 5px;
+	padding: 10px;
+	text-align: centrer;
+}
+
+.slider-container {
+	margin: 10%;
 }

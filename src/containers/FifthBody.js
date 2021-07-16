@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
+import Slide from '../components/Slide'
 
 const FifthBody = () => {
 	const settings = {
@@ -17,29 +18,32 @@ const FifthBody = () => {
 
 	return (
 		<div className='fifth-body two-column-grid'>
-			<div>
+			<div className='component-text'>
 				<h2>LOREM IPSUM DOLOR SIT AMET</h2>
 				<h2 className='stars'>★★★★★</h2>
 			</div>
-			<div>
-				<Slider className='slider' {...settings}>
+			<div className='slider-container'>
+				<Slider {...settings}>
 					<div>
-						<h3>1</h3>
+						<Slide
+							name='Allie'
+							date='1/2/3'
+							text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
+						/>
 					</div>
 					<div>
-						<h3>2</h3>
+						<Slide
+							name='allie 2'
+							date='1/2/3'
+							text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
+						/>
 					</div>
 					<div>
-						<h3>3</h3>
-					</div>
-					<div>
-						<h3>4</h3>
-					</div>
-					<div>
-						<h3>5</h3>
-					</div>
-					<div>
-						<h3>6</h3>
+						<Slide
+							name='dallas'
+							date='1/2/3'
+							text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
+						/>
 					</div>
 				</Slider>
 			</div>
