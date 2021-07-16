@@ -16,8 +16,8 @@ const ThirdBody = () => {
 			/>
 			<div className='icon-grids'>
 				<Icon image={clipboard} title={'LOREM'} />
-				<Icon image={mask} title={'LOREM'} />
-				<Icon image={goggles} title={'LOREM'} />
+				<Icon image={mask} title={'LOREM IPSUM'} />
+				<Icon image={goggles} title={'LOREM IPSUM'} />
 				<Icon image={calendar} title={'LOREM'} />
 			</div>
 		</div>

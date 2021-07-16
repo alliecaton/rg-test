@@ -70,9 +70,10 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
-
+	background-color: rgba(250 250 250);
 	justify-items: center;
 	align-items: center;
+	padding: 50px;
 }
 
 .component-image {
@@ -128,10 +129,23 @@ body {
 	/* background-color: #ededed; */
 }
 
-.small-icon {
+.icon-wrapper {
 	width: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.small-icon {
+	width: 30%;
 	border-radius: 50%;
 	padding: 10px;
 	border-style: solid;
 	border-color: rgba(172 95 208);
+}
+
+.icon-title-wrapper {
+	width: auto;
+	text-align: center;
 }
