@@ -5,11 +5,13 @@ import ImageComponent from '../components/ImageComponent'
 const FirstBody = () => {
 	return (
 		<div className='first-body two-column-grid'>
-			<TextComponent
-				text={
-					'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.'
-				}
-			/>
+			<div className='component-text'>
+				<TextComponent
+					text={
+						'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.'
+					}
+				/>
+			</div>
 			<ImageComponent />
 		</div>
 	)
