@@ -41,7 +41,7 @@ body {
 }
 
 .fourth-body {
-	padding-bottom: 10%;
+	padding-bottom: 5%;
 	overflow: hidden;
 	height: auto;
 	display: grid;
@@ -237,8 +237,8 @@ body {
 	z-index: -1;
 }
 
-@media screen and (max-width: 1fr) {
+@media screen and (max-width: 800px) {
 	.button-wrapper {
-		padding-top: 1000px;
+		padding-top: 120px;
 	}
 }
