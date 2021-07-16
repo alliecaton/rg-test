@@ -1,4 +1,11 @@
 import React from 'react'
+import {
+	CarouselProvider,
+	Slider,
+	Slide,
+	ButtonBack,
+	ButtonNext,
+} from 'pure-react-carousel'
 
 const FifthBody = () => {
 	return (
@@ -8,6 +15,13 @@ const FifthBody = () => {
 				<h2 className='stars'>★★★★★</h2>
 			</div>
 			<div>
+				<CarouselProvider>
+					<Slider>
+						<Slide>first slide</Slide>
+						<Slide>Second slide</Slide>
+						<Slide>Third Slide</Slide>
+					</Slider>
+				</CarouselProvider>
 				{/* carousel */}
 				{/* map in carousel content dynamically */}
 				{/* /carousel */}
