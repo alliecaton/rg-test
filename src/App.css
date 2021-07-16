@@ -104,3 +104,17 @@ body {
 	display: inline-block;
 	overflow: hidden;
 }
+
+.social-icon {
+	width: 3%;
+	padding: 5px;
+	/* grid-area: social-icon; */
+}
+
+.footer-wrapper {
+	display: grid;
+	/* grid-template-columns: 1fr 1fr;
+	grid-template-rows: 100% 100%; */
+	/* grid-template-areas: 'footer-text footer-text' 'social-icon' 'social-icon' '.'; */
+	/* background-color: #ededed; */
+}
