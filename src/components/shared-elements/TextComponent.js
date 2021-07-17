@@ -1,11 +1,11 @@
 import React from 'react'
 
-const TextComponent = ({ text }) => {
+const TextComponent = ({ text, title, link, linkText }) => {
 	return (
 		<div>
-			<h2>Lorem Ipsum</h2>
+			<h2>{title}</h2>
 			<p>{text}</p>
-			<a href='https://www.google.com'> &gt; Magnam aliquam</a>
+			<a href={`${link}`}>&gt; {`${linkText}`}</a>
 		</div>
 	)
 }

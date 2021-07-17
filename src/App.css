@@ -267,3 +267,28 @@ body {
 		padding-top: 120px;
 	}
 }
+
+/* animations */
+
+@keyframes pulse {
+	from {
+		width: 30%;
+	}
+	to {
+		width: 35%;
+	}
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.2);
+	}
+}
+
+.pulse:hover {
+	animation-name: pulse;
+	animation-duration: 1s;
+}
