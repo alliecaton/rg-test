@@ -18,7 +18,7 @@ const FifthBody = () => {
 
 	return (
 		<div className='fifth-body two-column-grid'>
-			<div className='component-text'>
+			<div className='slider-title'>
 				<h2>LOREM IPSUM DOLOR SIT AMET</h2>
 				<h2 className='stars'>★★★★★</h2>
 			</div>
