@@ -8,22 +8,22 @@ Tech At a Glance:
 - Sanity headless CMS backend
 - vanilla CSS (including animations)
 
-## Brief Outline of how Requirements and Bonus Features were met
+## Brief Outline of how Requirements and Bonus Features were met :white_check_mark:
 
 TBD
 
-## Technical Deeper Dive
+## Technical Deeper Dive :computer:
 
 What technologies I used and why:
 
-## Struggles
+## Struggles :triumph:
 
 TBD
 
-## Favorite Part
+## Favorite Part :sparkles:
 
 TBD
 
-## What I Would Expand Upon
+## What I Would Expand Upon :muscle:
 
 TBD
