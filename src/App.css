@@ -114,6 +114,11 @@ body {
 	border-radius: 7px;
 }
 
+.purple-button:hover {
+	background-color: #7f419b;
+	cursor: pointer;
+}
+
 .orange-button {
 	border: none;
 	color: white;
@@ -121,6 +126,11 @@ body {
 	margin-top: 10px;
 	background-color: #ff7218;
 	border-radius: 7px;
+}
+
+.orange-button:hover {
+	background-color: #d35202;
+	cursor: pointer;
 }
 
 /* reusable grid classes */
@@ -274,4 +284,37 @@ body {
 .pulse:hover {
 	animation-name: pulse;
 	animation-duration: 0.75s;
+}
+
+@keyframes fade-in-up {
+	from {
+		opacity: 0;
+		padding-top: 20px;
+	}
+	to {
+		opacity: 1;
+		padding-top: 0px;
+	}
+}
+
+@keyframes fade-in {
+	from {
+		visibility: hidden;
+		opacity: 0;
+	}
+	to {
+		visibility: visible;
+		display: inline;
+	}
+}
+
+.fade-in-up {
+	animation-name: fade-in-up;
+	animation-duration: 1.5s;
+}
+
+.fade-in {
+	animation-name: fade-in;
+	animation-duration: 1s;
+	animation-delay: 1.5s;
 }

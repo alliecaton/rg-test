@@ -8,13 +8,21 @@ const Footer = () => {
 			<p className='footer-text'>Follow Us:</p>
 			<div className='social-icons'>
 				<a href='https://instagram.com' target='_blank' rel='noreferrer'>
-					<img className='social-icon' src={instagram} alt='instagram logo' />
+					<img
+						className='social-icon pulse'
+						src={instagram}
+						alt='instagram logo'
+					/>
 				</a>
 				<a
 					href='https://www.facebook.com/RoosterGrin/'
 					target='_blank'
 					rel='noreferrer'>
-					<img className='social-icon' src={facebook} alt='facebook logo' />
+					<img
+						className='social-icon pulse'
+						src={facebook}
+						alt='facebook logo'
+					/>
 				</a>
 			</div>
 		</div>
