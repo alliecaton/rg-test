@@ -3,7 +3,9 @@ import React from 'react'
 const Icon = ({ image, title }) => {
 	return (
 		<div className='icon-wrapper'>
-			<img className='small-icon pulse' src={image} alt='icon' />
+			<div className='small-icon pulse'>
+				<img src={image} alt='icon' />
+			</div>
 			<h4 className='icon-title-wrapper'>{title}</h4>
 		</div>
 	)

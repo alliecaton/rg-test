@@ -182,11 +182,6 @@ body {
 	padding: 0px 5px 0px 5px;
 	display: inline-block;
 }
-/* 
-.social-icon:hover {
-	background-color: #ac5fd1;
-	border-radius: 5px;
-} */
 
 .icon-wrapper {
 	width: 100%;
@@ -199,7 +194,7 @@ body {
 .small-icon {
 	width: 30%;
 	border-radius: 50%;
-	padding: 10px;
+	padding: 20px 22px 20px 22px;
 	border-style: solid;
 	border-color: rgba(172 95 208);
 }
