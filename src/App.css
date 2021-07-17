@@ -4,6 +4,10 @@ a {
 	text-decoration: none;
 }
 
+h1 {
+	margin: 0px;
+}
+
 h2 {
 	color: #613475;
 }
@@ -149,7 +153,6 @@ body {
 
 .component-image {
 	width: 100%;
-	/* height: auto; */
 	min-height: 440px;
 	object-fit: cover;
 }
