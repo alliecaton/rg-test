@@ -140,13 +140,6 @@ body {
 	height: auto;
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
-
-/* .one-column-grid {
-	height: 600px;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-/* } */
-
 /* component specific grids */
 
 .icon-grids {
@@ -173,10 +166,6 @@ body {
 	padding-bottom: 7px;
 }
 
-.second-body-content {
-	margin: 20%;
-}
-
 .img-wrapper {
 	display: inline-block;
 	overflow: hidden;
@@ -191,6 +180,14 @@ body {
 	width: 3rem;
 	padding: 0px 5px 0px 5px;
 	display: inline-block;
+}
+
+.image-behind {
+	position: absolute;
+	max-width: 100%;
+	min-height: 450px;
+	object-fit: cover;
+	z-index: -1;
 }
 
 .icon-wrapper {
@@ -212,6 +209,24 @@ body {
 .icon-title-wrapper {
 	width: auto;
 	text-align: center;
+}
+
+/* misc component specific styles */
+
+.second-body-content {
+	margin: 20%;
+}
+
+.button-wrapper {
+	margin: 15%;
+	float: right;
+	width: 70%;
+}
+
+@media screen and (max-width: 800px) {
+	.button-wrapper {
+		padding-top: 120px;
+	}
 }
 
 /* carousel styles */
@@ -250,33 +265,15 @@ body {
 	align-self: center;
 }
 
-.button-wrapper {
-	margin: 15%;
-	float: right;
-	width: 70%;
-}
-
-.image-behind {
-	position: absolute;
-	max-width: 100%;
-	min-height: 450px;
-	object-fit: cover;
-	z-index: -1;
-}
-
-@media screen and (max-width: 800px) {
-	.button-wrapper {
-		padding-top: 120px;
-	}
-}
-
 /* animations */
 
 @keyframes pulse {
 	0% {
+		-webkit-transform: scale(1);
 		transform: scale(1);
 	}
 	50% {
+		-webkit-transform: scale(1.2);
 		transform: scale(1.2);
 	}
 }
@@ -288,33 +285,20 @@ body {
 
 @keyframes fade-in-up {
 	from {
+		-webkit-opacity: 0;
+		-webkit-padding-before: 20px;
 		opacity: 0;
 		padding-top: 20px;
 	}
 	to {
+		-webkit-opacity: 1;
+		-webkit-padding-before: 0px;
 		opacity: 1;
 		padding-top: 0px;
-	}
-}
-
-@keyframes fade-in {
-	from {
-		visibility: hidden;
-		opacity: 0;
-	}
-	to {
-		visibility: visible;
-		display: inline;
 	}
 }
 
 .fade-in-up {
 	animation-name: fade-in-up;
 	animation-duration: 1.5s;
-}
-
-.fade-in {
-	animation-name: fade-in;
-	animation-duration: 1s;
-	animation-delay: 1.5s;
 }
