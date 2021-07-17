@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/roostergrin-test/static/css/main.f680a2fc.chunk.css",
+    "main.js": "/roostergrin-test/static/js/main.3d0eb95a.chunk.js",
+    "main.js.map": "/roostergrin-test/static/js/main.3d0eb95a.chunk.js.map",
+    "runtime-main.js": "/roostergrin-test/static/js/runtime-main.90f08f17.js",
+    "runtime-main.js.map": "/roostergrin-test/static/js/runtime-main.90f08f17.js.map",
+    "static/css/2.61ae0124.chunk.css": "/roostergrin-test/static/css/2.61ae0124.chunk.css",
+    "static/js/2.5e078fc6.chunk.js": "/roostergrin-test/static/js/2.5e078fc6.chunk.js",
+    "static/js/2.5e078fc6.chunk.js.map": "/roostergrin-test/static/js/2.5e078fc6.chunk.js.map",
+    "static/js/3.d0bb5308.chunk.js": "/roostergrin-test/static/js/3.d0bb5308.chunk.js",
+    "static/js/3.d0bb5308.chunk.js.map": "/roostergrin-test/static/js/3.d0bb5308.chunk.js.map",
+    "index.html": "/roostergrin-test/index.html",
+    "static/css/2.61ae0124.chunk.css.map": "/roostergrin-test/static/css/2.61ae0124.chunk.css.map",
+    "static/css/main.f680a2fc.chunk.css.map": "/roostergrin-test/static/css/main.f680a2fc.chunk.css.map",
+    "static/js/2.5e078fc6.chunk.js.LICENSE.txt": "/roostergrin-test/static/js/2.5e078fc6.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/roostergrin-test/static/media/hero.9a710d87.jpg",
+    "static/media/banner-2.94ddf3c2.jpg": "/roostergrin-test/static/media/banner-2.94ddf3c2.jpg",
+    "static/media/facebook.f199906c.svg": "/roostergrin-test/static/media/facebook.f199906c.svg",
+    "static/media/home-expertise.431e1bc5.svg": "/roostergrin-test/static/media/home-expertise.431e1bc5.svg",
+    "static/media/home-hygiene.289cbb0a.svg": "/roostergrin-test/static/media/home-hygiene.289cbb0a.svg",
+    "static/media/home-lab.33fec398.svg": "/roostergrin-test/static/media/home-lab.33fec398.svg",
+    "static/media/home-retention.78e8e24e.svg": "/roostergrin-test/static/media/home-retention.78e8e24e.svg",
+    "static/media/img-1.7a73ec85.jpg": "/roostergrin-test/static/media/img-1.7a73ec85.jpg",
+    "static/media/instagram.06adcba1.svg": "/roostergrin-test/static/media/instagram.06adcba1.svg",
+    "static/media/logo-white.daed702e.svg": "/roostergrin-test/static/media/logo-white.daed702e.svg",
+    "static/media/slick-theme.css": "/roostergrin-test/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90f08f17.js",
+    "static/css/2.61ae0124.chunk.css",
+    "static/js/2.5e078fc6.chunk.js",
+    "static/css/main.f680a2fc.chunk.css",
+    "static/js/main.3d0eb95a.chunk.js"
+  ]
+}
