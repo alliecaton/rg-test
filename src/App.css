@@ -247,17 +247,14 @@ body {
 
 .button-wrapper {
 	margin: 15%;
-
 	float: right;
 	width: 70%;
 }
 
 .image-behind {
 	position: absolute;
-	/* height: auto; */
 	max-width: 100%;
 	min-height: 450px;
-	/* max-height: auto; */
 	object-fit: cover;
 	z-index: -1;
 }
@@ -271,15 +268,6 @@ body {
 /* animations */
 
 @keyframes pulse {
-	from {
-		width: 30%;
-	}
-	to {
-		width: 35%;
-	}
-}
-
-@keyframes pulse {
 	0% {
 		transform: scale(1);
 	}
@@ -290,5 +278,5 @@ body {
 
 .pulse:hover {
 	animation-name: pulse;
-	animation-duration: 1s;
+	animation-duration: 0.75s;
 }

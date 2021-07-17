@@ -5,7 +5,7 @@ const TextComponent = ({ text, title, link, linkText }) => {
 		<div>
 			<h2>{title}</h2>
 			<p>{text}</p>
-			<a href={`${link}`}>&gt; {`${linkText}`}</a>
+			<a href={`${link}`}>{linkText ? `> ${linkText}` : ''}</a>
 		</div>
 	)
 }
