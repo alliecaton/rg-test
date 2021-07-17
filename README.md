@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Rooster Grin
 
 Rooster Grin Media test. Deployed and available [here](insert link)
 
