@@ -1,15 +1,16 @@
 # Rooster Grin
 
 Rooster Grin Media test. Deployed and available [here](https://alliecaton.github.io/roostergrin-test/).
+
 Backend Repo can be found [here](https://github.com/alliecaton/roostergrin-sanity-cms).
 
 Tech At a Glance:
 
 - React Frontend
+  - React Slick Carousel
+  - React Spinners (for loading fetched carousel data)
 - Sanity headless CMS backend
 - vanilla CSS (including animations)
-- React Slick Carousel
-- React Spinners (for loading fetched carousel data)
 
 ## Brief Checklist of how Requirements and Bonus Features were met :white_check_mark:
 
