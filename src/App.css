@@ -48,11 +48,14 @@ body {
 }
 
 .fourth-body {
-	padding-bottom: 5%;
+	background-image: url('./assets/banner-2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 10%;
 	overflow: hidden;
-	display: grid;
+	/* display: grid; */
 	height: auto;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	/* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
 }
 
 .fifth-body {
@@ -74,6 +77,8 @@ body {
 
 .header-container {
 	background-image: url('./assets/hero.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 	height: 750px;
 }
 
@@ -217,14 +222,17 @@ body {
 }
 
 .button-wrapper {
-	margin: 15%;
+	/* margin: 15%; */
+	margin: 10% 10% 0 0;
 	float: right;
-	width: 70%;
+	width: 30%;
 }
 
 @media screen and (max-width: 800px) {
 	.button-wrapper {
-		padding-top: 120px;
+		margin-left: 10%;
+		float: left;
+		width: 40%;
 	}
 }
 

@@ -1,6 +1,6 @@
 # Rooster Grin
 
-Rooster Grin Media test. Deployed and available [here](https://alliecaton.github.io/roostergrin-test/)
+Rooster Grin Media test. Deployed and available [here](https://alliecaton.github.io/roostergrin-test/).
 
 Tech At a Glance:
 

@@ -7,8 +7,8 @@ const FourthBody = () => {
 	return (
 		<>
 			<div className='fourth-body'>
-				<img className='image-behind' src={image} alt='child lauging' />
-				<div className='button-wrapper'></div>
+				{/* <img className='image-behind' src={image} alt='child lauging' /> */}
+				{/* <div className='button-wrapper'></div> */}
 				<div className='button-wrapper'>
 					<TextComponent
 						title={'LOREM IPSUM'}
