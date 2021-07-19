@@ -281,6 +281,10 @@ body {
 	align-self: center;
 }
 
+.slick-dots li button:before {
+	color: orange !important;
+}
+
 /* animations */
 
 @keyframes pulse {
