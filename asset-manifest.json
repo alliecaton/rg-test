@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/roostergrin-test/static/css/main.aa54f30f.chunk.css",
-    "main.js": "/roostergrin-test/static/js/main.834edac0.chunk.js",
-    "main.js.map": "/roostergrin-test/static/js/main.834edac0.chunk.js.map",
-    "runtime-main.js": "/roostergrin-test/static/js/runtime-main.90f08f17.js",
-    "runtime-main.js.map": "/roostergrin-test/static/js/runtime-main.90f08f17.js.map",
+    "main.js": "/roostergrin-test/static/js/main.c58de7c0.chunk.js",
+    "main.js.map": "/roostergrin-test/static/js/main.c58de7c0.chunk.js.map",
+    "runtime-main.js": "/roostergrin-test/static/js/runtime-main.d32500d6.js",
+    "runtime-main.js.map": "/roostergrin-test/static/js/runtime-main.d32500d6.js.map",
     "static/css/2.61ae0124.chunk.css": "/roostergrin-test/static/css/2.61ae0124.chunk.css",
-    "static/js/2.5e078fc6.chunk.js": "/roostergrin-test/static/js/2.5e078fc6.chunk.js",
-    "static/js/2.5e078fc6.chunk.js.map": "/roostergrin-test/static/js/2.5e078fc6.chunk.js.map",
-    "static/js/3.d0bb5308.chunk.js": "/roostergrin-test/static/js/3.d0bb5308.chunk.js",
-    "static/js/3.d0bb5308.chunk.js.map": "/roostergrin-test/static/js/3.d0bb5308.chunk.js.map",
+    "static/js/2.ee11a8df.chunk.js": "/roostergrin-test/static/js/2.ee11a8df.chunk.js",
+    "static/js/2.ee11a8df.chunk.js.map": "/roostergrin-test/static/js/2.ee11a8df.chunk.js.map",
+    "static/js/3.a7e1f337.chunk.js": "/roostergrin-test/static/js/3.a7e1f337.chunk.js",
+    "static/js/3.a7e1f337.chunk.js.map": "/roostergrin-test/static/js/3.a7e1f337.chunk.js.map",
     "index.html": "/roostergrin-test/index.html",
     "static/css/2.61ae0124.chunk.css.map": "/roostergrin-test/static/css/2.61ae0124.chunk.css.map",
     "static/css/main.aa54f30f.chunk.css.map": "/roostergrin-test/static/css/main.aa54f30f.chunk.css.map",
-    "static/js/2.5e078fc6.chunk.js.LICENSE.txt": "/roostergrin-test/static/js/2.5e078fc6.chunk.js.LICENSE.txt",
+    "static/js/2.ee11a8df.chunk.js.LICENSE.txt": "/roostergrin-test/static/js/2.ee11a8df.chunk.js.LICENSE.txt",
     "static/media/App.css": "/roostergrin-test/static/media/hero.9a710d87.jpg",
     "static/media/facebook.f199906c.svg": "/roostergrin-test/static/media/facebook.f199906c.svg",
     "static/media/home-expertise.431e1bc5.svg": "/roostergrin-test/static/media/home-expertise.431e1bc5.svg",
@@ -27,10 +27,10 @@
     "static/media/welcome.00ba58cf.svg": "/roostergrin-test/static/media/welcome.00ba58cf.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.90f08f17.js",
+    "static/js/runtime-main.d32500d6.js",
     "static/css/2.61ae0124.chunk.css",
-    "static/js/2.5e078fc6.chunk.js",
+    "static/js/2.ee11a8df.chunk.js",
     "static/css/main.aa54f30f.chunk.css",
-    "static/js/main.834edac0.chunk.js"
+    "static/js/main.c58de7c0.chunk.js"
   ]
 }
