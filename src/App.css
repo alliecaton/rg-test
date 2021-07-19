@@ -87,15 +87,22 @@ body {
 }
 
 .hero-content-parent {
-	font-size: 30px;
-	display: flex;
-	justify-content: center;
-	flex-flow: column wrap;
-	align-items: center;
-	height: 90%;
-	width: 100%;
+	font-size: 3.5vw;
+	max-width: 100%;
+	height: auto;
+	/* margin: 0; */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 	color: white;
 	text-align: center;
+}
+
+.welcome-svg {
+	max-width: 100%;
+	height: auto;
 }
 
 .navbar {
@@ -114,6 +121,7 @@ body {
 	border: none;
 	color: white;
 	padding: 15px;
+	margin: 10px;
 	background-color: #ac5fd1;
 	border-radius: 7px;
 }
