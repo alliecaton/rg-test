@@ -4,6 +4,7 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Slide from '../components/Slide'
 import sanityClient from '../client.js'
+import ClipLoader from 'react-spinners/ClipLoader'
 
 const FifthBody = () => {
 	const [allReviews, setReviews] = useState(null)
@@ -15,11 +16,39 @@ const FifthBody = () => {
 				reviewer, 
 				slug,
 				publishedAt, 
+				body,
 			  }`
 			)
-			.then(data => setReviews(data))
+			.then(data => {
+				setReviews(data)
+			})
 			.catch(console.error)
 	}, [])
+
+	const formatDate = string => {
+		const array = string.split('T')[0].replace(/-/g, '/').split('/')
+		return [array[1], array[2], array[0]].join('/')
+	}
+
+	const displayReviews = () => {
+		if (allReviews) {
+			return allReviews.map(review => (
+				<div>
+					<Slide
+						name={review.reviewer}
+						date={formatDate(review.publishedAt)}
+						text={review.body[0].children[0].text}
+					/>
+				</div>
+			))
+		} else {
+			return (
+				<div>
+					<ClipLoader />
+				</div>
+			)
+		}
+	}
 
 	const settings = {
 		dots: true,
@@ -32,7 +61,7 @@ const FifthBody = () => {
 		className: 'carousel',
 	}
 
-	console.log('fetched from sanity', allReviews)
+	console.log(allReviews)
 
 	return (
 		<div className='fifth-body two-column-grid'>
@@ -41,29 +70,7 @@ const FifthBody = () => {
 				<h2 className='stars'>★★★★★</h2>
 			</div>
 			<div className='slider-container'>
-				<Slider {...settings}>
-					<div>
-						<Slide
-							name='Allie'
-							date='1/2/3'
-							text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
-						/>
-					</div>
-					<div>
-						<Slide
-							name='allie 2'
-							date='1/2/3'
-							text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
-						/>
-					</div>
-					<div>
-						<Slide
-							name='dallas'
-							date='1/2/3'
-							text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
-						/>
-					</div>
-				</Slider>
+				<Slider {...settings}>{displayReviews()}</Slider>
 			</div>
 		</div>
 	)
