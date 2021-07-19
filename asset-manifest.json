@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/roostergrin-test/static/css/main.aa54f30f.chunk.css",
+    "main.css": "/roostergrin-test/static/css/main.d392f971.chunk.css",
     "main.js": "/roostergrin-test/static/js/main.c58de7c0.chunk.js",
     "main.js.map": "/roostergrin-test/static/js/main.c58de7c0.chunk.js.map",
     "runtime-main.js": "/roostergrin-test/static/js/runtime-main.d32500d6.js",
@@ -12,7 +12,7 @@
     "static/js/3.a7e1f337.chunk.js.map": "/roostergrin-test/static/js/3.a7e1f337.chunk.js.map",
     "index.html": "/roostergrin-test/index.html",
     "static/css/2.61ae0124.chunk.css.map": "/roostergrin-test/static/css/2.61ae0124.chunk.css.map",
-    "static/css/main.aa54f30f.chunk.css.map": "/roostergrin-test/static/css/main.aa54f30f.chunk.css.map",
+    "static/css/main.d392f971.chunk.css.map": "/roostergrin-test/static/css/main.d392f971.chunk.css.map",
     "static/js/2.ee11a8df.chunk.js.LICENSE.txt": "/roostergrin-test/static/js/2.ee11a8df.chunk.js.LICENSE.txt",
     "static/media/App.css": "/roostergrin-test/static/media/hero.9a710d87.jpg",
     "static/media/facebook.f199906c.svg": "/roostergrin-test/static/media/facebook.f199906c.svg",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.d32500d6.js",
     "static/css/2.61ae0124.chunk.css",
     "static/js/2.ee11a8df.chunk.js",
-    "static/css/main.aa54f30f.chunk.css",
+    "static/css/main.d392f971.chunk.css",
     "static/js/main.c58de7c0.chunk.js"
   ]
 }
