@@ -8,6 +8,8 @@ Tech At a Glance:
 - React Frontend
 - Sanity headless CMS backend
 - vanilla CSS (including animations)
+- React Slick Carousel
+- React Spinners (for loading fetched carousel data)
 
 ## Brief Checklist of how Requirements and Bonus Features were met :white_check_mark:
 
@@ -29,7 +31,7 @@ Required Features:
 
 Bonus Features:
 
-- Use of Dev Server:heavy_check_mark:
+- Use of Dev Server :heavy_check_mark:
 - Front end framework :heavy_check_mark:
   - React
 - Dynamic backend from a CMS :heavy_check_mark:
