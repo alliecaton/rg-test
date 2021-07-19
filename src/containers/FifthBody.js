@@ -1,10 +1,26 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Slide from '../components/Slide'
+import sanityClient from '../client.js'
 
 const FifthBody = () => {
+	const [allReviews, setReviews] = useState(null)
+
+	useEffect(() => {
+		sanityClient
+			.fetch(
+				`*[_type == "review"]{
+				reviewer, 
+				slug,
+				publishedAt, 
+			  }`
+			)
+			.then(data => setReviews(data))
+			.catch(console.error)
+	}, [])
+
 	const settings = {
 		dots: true,
 		infinite: true,
@@ -15,6 +31,8 @@ const FifthBody = () => {
 		arrows: true,
 		className: 'carousel',
 	}
+
+	console.log('fetched from sanity', allReviews)
 
 	return (
 		<div className='fifth-body two-column-grid'>

@@ -1,14 +1,11 @@
 import React from 'react'
 import OrangeButton from '../components/shared-elements/OrangeButton'
-import image from '../assets/banner-2.jpg'
 import TextComponent from '../components/shared-elements/TextComponent'
 
 const FourthBody = () => {
 	return (
 		<>
 			<div className='fourth-body'>
-				{/* <img className='image-behind' src={image} alt='child lauging' /> */}
-				{/* <div className='button-wrapper'></div> */}
 				<div className='button-wrapper'>
 					<TextComponent
 						title={'LOREM IPSUM'}

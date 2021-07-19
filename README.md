@@ -1,6 +1,7 @@
 # Rooster Grin
 
 Rooster Grin Media test. Deployed and available [here](https://alliecaton.github.io/roostergrin-test/).
+Backend Repo can be found [here](https://github.com/alliecaton/roostergrin-sanity-cms)
 
 Tech At a Glance:
 
