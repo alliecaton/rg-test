@@ -22,7 +22,9 @@ What technologies I used and why:
   - Eas to reuse components for styling reasons. I created separate button and text container components that are re-used throughout the entire application. This cuts down on a lot of unecessary redundancy.
   - Great for future expanding
 - Sanity:
-  - etc
+  - Does not enforce any schema or structure so it can easily be formatted to fit with whatever app structure.
+  - Clean and easy to use interface that is easy for users at any level of technical literacy to use.
+  - While I only utilized Sanity for carousel content, because it has no enforcing structure, it could easily be expanded to connect with each component's content.
 - Vanilla CSS:
   - I _love_ creating vanilla CSS animations. When I saw that this application would require animations, I knew right away that I was going to create them using @keyframes with vanilla CSS
   - I enjoy the challenge and versatility of working with vanilla CSS over frameworks like Bootstrap. I also love using Bootstrap, especially when I need to get something up and running quickly, but I like the control that utilizing only CSS gives me.
@@ -37,4 +39,6 @@ CSS animtaions! I love creating CSS animations, and I got to try out some differ
 
 ## What I Would Expand Upon :muscle:
 
-TBD
+- Expand Sanity backend to make content in each container ediatable from the CMS rather than just the carousel.
+- Utilize flexbox more generously within and alongside the grids for cleaner setup and responsiveness.
+- Add a navigation that utilizes react-scroll to route and scroll navigate to different sections.
