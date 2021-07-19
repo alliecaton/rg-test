@@ -2,6 +2,7 @@
 
 a {
 	text-decoration: none;
+	-webkit-appearance: none;
 }
 
 h1 {
@@ -53,9 +54,7 @@ body {
 	background-repeat: no-repeat;
 	padding-bottom: 10%;
 	overflow: hidden;
-	/* display: grid; */
 	height: auto;
-	/* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
 }
 
 .fifth-body {
@@ -176,6 +175,8 @@ body {
 	margin: 10%;
 	padding: 5px;
 	padding-bottom: 7px;
+	max-width: 100%;
+	height: auto;
 }
 
 .img-wrapper {
@@ -324,6 +325,8 @@ body {
 		margin-right: 30%;
 		padding: 5px;
 		padding-bottom: 7px;
+		max-width: 100%;
+		height: auto;
 	}
 
 	.button-wrapper {
@@ -353,9 +356,12 @@ body {
 		margin-right: 30%;
 		padding: 5px;
 		padding-bottom: 7px;
+		max-width: 100%;
+		height: auto;
 	}
 
 	.button-wrapper {
+		padding: 0;
 		margin: 15%;
 		margin-right: 20%;
 		float: right;
