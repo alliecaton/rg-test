@@ -9,9 +9,31 @@ Tech At a Glance:
 - Sanity headless CMS backend
 - vanilla CSS (including animations)
 
-## Brief Outline of how Requirements and Bonus Features were met :white_check_mark:
+## Brief Checklist of how Requirements and Bonus Features were met :white_check_mark:
 
-TBD
+Required Features:
+
+- Mockups are followed :heavy_check_mark:
+- Carousel in last section :heavy_check_mark:
+- Mobile Responsive :heavy_check_mark:
+- Subtle Animations on the four icons :heavy_check_mark:
+  - Also included subtle animation on the two social icons in the footer
+- Attention to Detail :heavy_check_mark:
+  - Specifically with branded colors/icons and responsive formatting.
+- Module and concise code :heavy_check_mark:
+  - Utilizes the container/component structure so that generalized components can be highly re-used, cutting down on repetition.
+- Fully funcitonal capabilities :heavy_check_mark:
+- Best practices & good use of images/assets :heavy_check_mark:
+- Grid system :heavy_check_mark:
+- Fade-in effect for hero title :heavy_check_mark:
+
+Bonus Features:
+
+- Use of Dev Server:heavy_check_mark:
+- Front end framework :heavy_check_mark:
+  - React
+- Dynamic backend from a CMS :heavy_check_mark:
+  - Utilized Sanity for carousel content
 
 ## Technical Deeper Dive :computer:
 
