@@ -3,6 +3,11 @@
 a {
 	text-decoration: none;
 	-webkit-appearance: none;
+	color: #613475;
+}
+
+a:hover {
+	color: #7f419b;
 }
 
 h1 {

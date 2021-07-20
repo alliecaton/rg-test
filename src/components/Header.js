@@ -1,6 +1,6 @@
 import React from 'react'
 import PurpleButton from './shared-elements/PurpleButton'
-import image from './../assets/welcome.svg'
+import image from './../assets/welcome.png'
 
 const Header = () => {
 	return (
