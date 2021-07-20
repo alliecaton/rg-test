@@ -10,7 +10,7 @@ Tech At a Glance:
   - React Slick Carousel
   - React Spinners (for loading fetched carousel data)
 - Sanity headless CMS backend
-- vanilla CSS (including animations)
+- Vanilla CSS (including animations)
 
 ## Brief Checklist of how Requirements and Bonus Features were met :white_check_mark:
 
